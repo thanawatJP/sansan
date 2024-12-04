@@ -1,0 +1,53 @@
+# Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Virtual Environment
+myvenv/
+evback/
+venv/
+env/
+ssvenv/
+.idea/  # If you're using PyCharm or IntelliJ IDEA
+.vscode/  # If you're using Visual Studio Code
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+*.mo
+*.migrations/  # Only ignore migrations if you want to manage them manually
+
+# Environment variables and sensitive data
+.env  # dotenv file for environment variables
+.DS_Store  # Mac OS Finder metadata
+
+# Static and media files (if generated automatically)
+staticfiles/
+media/
+
+# Cache files and temporary files
+*.cache
+*.tmp
+
+# Celery and task queues
+celerybeat-schedule
+celerybeat.pid
+
+# Jupyter Notebooks (if used in the project)
+.ipynb_checkpoints
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+coverage.xml
+.cache
+
+# Testing and linting
+.pytest_cache/
+nosetests.xml
+pylint-report.txt
